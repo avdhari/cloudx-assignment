@@ -44,7 +44,7 @@ GRANT ALL PRIVILEGES ON DATABASE database_name TO username;
 ## Create `.env` file and set up config vars 
 *refer `env.example`* and add secret_key, DB link etc.
 
-- for generating new secret use `get_random_secret_key` from `django.core.management.utils`
+- for generating new secret key use `get_random_secret_key` from `django.core.management.utils`
 and update `.env` file
 ```
 DJANGO_SECRET_KEY=<your_key>
