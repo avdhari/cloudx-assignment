@@ -4,15 +4,24 @@
 ```
 python -m venv <env_name>
 ```
-or
+*or*
 ```
 mkvirtualenv <env_name> 
 ```
 *depending on the virtualenv package used*
 
+activate the env
+```
+source <env_name>/bin/activate
+```
+*or*
+```
+workon <env_name>
+``` 
+
 ## Install requirements
 ```
-cd local_path/coudx-assignment
+cd local_path/cloudx-assignment
 
 pip install -r requirements.txt
 ```
