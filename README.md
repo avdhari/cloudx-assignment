@@ -52,7 +52,7 @@ DATABASE_URL=postgres://<user>:<password>@localhost:5432/<dbname>
 ```
 
 
-## Migrate database to apply changes
+## Migrate database
 ```
 python manage.py migrate
 ```
